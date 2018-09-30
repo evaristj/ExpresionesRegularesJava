@@ -5,7 +5,7 @@ public class ejercicio1 {
 	public static void main(String[] args) {
 
 		/*
-		 * 1) Validar un número entero.
+		 * 1) Validar un nÃºmero entero.
 		 */
 
 		// String texto = "Comprueba que solo haya texto.547";
