@@ -3,12 +3,12 @@ package com.java.exercise.expresionesRegulares;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class ejercicio2 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 
 		/*
-		 * 2) Validar un número entero positivo.
+		 * 2) Validar un nÃºmero entero positivo.
 		 */
 
 		String numberPositivo = "1234568791";
@@ -16,7 +16,7 @@ public class ejercicio2 {
 		System.out.println("Numero entero Positivo: " + numberPositivo.matches("[0-9]*"));
 
 		/*
-		 * 3) Validar un número entero negativo.
+		 * 3) Validar un nÃºmero entero negativo.
 		 */
 
 		String numberNegativo = "-1234568791";
@@ -24,7 +24,7 @@ public class ejercicio2 {
 		System.out.println("Numero entero negativo: " + numberNegativo.matches("-[0-9]*"));
 
 		/*
-		 * 4) Validar DNI (buscar internet), 8 números y una letra al final.
+		 * 4) Validar DNI (buscar internet), 8 nÃºmeros y una letra al final.
 		 */
 
 		String dniRegex = "\\d{8}[A-HJ-NP-TV-Z]";
@@ -49,7 +49,7 @@ public class ejercicio2 {
 		String validarMatricula = "^\\d{4}[b-zB-Z&&[^eiou]]{3}";
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Introduce una matricula de cualquier coche español:");
+		System.out.println("Introduce una matricula de cualquier coche espaÃ±ol:");
 		String matricula = sc.nextLine();
 
 		System.out.println("La Matricula es: " + Pattern.matches(validarMatricula, matricula));
