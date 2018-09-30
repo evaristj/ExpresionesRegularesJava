@@ -2,12 +2,12 @@ package com.java.exercise.expresionesRegulares;
 
 import java.util.regex.Pattern;
 
-public class ejercicio3 {
+public class Ejercicio3 {
 
 	public static void main(String[] args) {
 
 		/*
-		 * 7) Validar un número binario.
+		 * 7) Validar un nÃºmero binario.
 		 */
 
 		String validarNumBinario = "[0-1]+?";
@@ -17,7 +17,7 @@ public class ejercicio3 {
 		System.out.println("El numero binario es: " + Pattern.matches(validarNumBinario, numBinario));
 
 		/*
-		 * 8) Validar un número octal.
+		 * 8) Validar un nÃºmero octal.
 		 */
 
 		String validarNumOctal = "[0-7]+$";
@@ -27,7 +27,7 @@ public class ejercicio3 {
 		System.out.println("El numero octal es: " + Pattern.matches(validarNumOctal, numOctal));
 
 		/*
-		 * 9) Validar un número hexadecimal.
+		 * 9) Validar un nÃºmero hexadecimal.
 		 */
 
 		String validarNumHexadecimal = "[0-9a-fA-F]*?";
